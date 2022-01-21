@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js feature/**/*.feature"
+    "test": "cucumber-js feature/**/*.feature",
+    "posttest": "node ./support/report.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
     "@cucumber/cucumber": "^8.0.0-rc.2",
     "@wdio/devtools-service": "^7.16.13",
     "chai": "^4.3.4",
+    "vue-cucumber-html-reporter": "^0.2.2",
     "webdriverio": "^7.16.13"
   }
 }
