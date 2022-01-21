@@ -1,0 +1,27 @@
+{
+  "name": "cucumber-e2e-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js feature/**/*.feature"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexGalichenko/cucumber-e2e-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexGalichenko/cucumber-e2e-boilerplate/issues"
+  },
+  "homepage": "https://github.com/AlexGalichenko/cucumber-e2e-boilerplate#readme",
+  "dependencies": {
+    "@cucumber-e2e/memory2": "^0.0.2",
+    "@cucumber-e2e/po2": "^1.0.0",
+    "@cucumber/cucumber": "^8.0.0-rc.2",
+    "@wdio/devtools-service": "^7.16.13",
+    "chai": "^4.3.4",
+    "webdriverio": "^7.16.13"
+  }
+}
