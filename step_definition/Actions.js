@@ -17,3 +17,7 @@ When(/click '(.+)'/, async function(alias) {
     const element = await po.getElement(alias);
     await element.click();
 });
+
+When(/wait '(.+)' sec/, async function(sec) {
+    await browser.pause(sec * 1000);
+});
