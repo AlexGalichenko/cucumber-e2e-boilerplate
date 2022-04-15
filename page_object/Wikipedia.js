@@ -1,10 +1,10 @@
 const { $, $$ } = require('@cucumber-e2e/po2');
 
-class WikiHome {
+class Wikipedia {
     selector = '.search-container';
 
     SearchInput = $('#searchInput');
     SearchButton = $('button[type=submit]');
 }
 
-module.exports = WikiHome;
+module.exports = Wikipedia;
